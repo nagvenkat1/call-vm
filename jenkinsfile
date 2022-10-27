@@ -8,7 +8,7 @@ pipeline {
         }
          stage('create') {
             steps {
-                sh 'vmcli.sh'
+                sh './vmcli.sh'
                 
             }
          }
